@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function (event)
     const password = document.getElementById("password").value;
   
     // ตรวจสอบชื่อผู้ใช้และรหัสผ่าน
-    if (username === "luly" ll username === "Luly" && password === "27/11/2023") {
+    if (username === "luly" || username === "Luly" && password === "27/11/2023") {
       // หากถูกต้อง เปลี่ยนไปหน้าหลัก
       window.location.href = "frist.html"; // เปลี่ยนเส้นทางไปยังหน้าหลัก
     } else {
